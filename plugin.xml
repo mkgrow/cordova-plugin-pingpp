@@ -70,9 +70,6 @@
         <framework src="libsqlite3.0.tbd" />
         <framework src="libstdc++.tbd" />
 
-        <resource-file src="sdk/ios/lib/Channels/Alipay/AlipaySDK.bundle"/>
-        <framework src="sdk/ios/lib/Channels/Alipay/AlipaySDK.framework" custom="true"/>
-        <source-file src="sdk/ios/lib/Channels/Alipay/libpingpp+alipay.a" framework="true"/>
         <resource-file src="sdk/ios/lib/Pingpp.bundle"/>
         <source-file src="sdk/ios/lib/libpingppcore.a" framework="true"/>
         <header-file src="sdk/ios/lib/Pingpp.h"/>
