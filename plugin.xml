@@ -54,9 +54,9 @@
         </config-file>
 
         <source-file src="src/android/PingppPlugin.java" target-dir="src/me/tongchia/cordova/"/>
-        <source-file src="sdk/android/lib/pingpp/libs/alipaySdk-20160223.jar" target-dir="libs"/>
+        <source-file src="sdk/android/lib/pingpp/libs/alipaySingle-20160825.jar" target-dir="libs"/>
         <source-file src="sdk/android/lib/pingpp/libs/libammsdk.jar" target-dir="libs"/>
-        <source-file src="sdk/android/lib/pingpp/libs/libpingpp-2.1.3.jar" target-dir="libs"/>
+        <source-file src="sdk/android/lib/pingpp/libs/libpingpp-2.1.7.jar" target-dir="libs"/>
     </platform>
 
     <platform name="ios">
@@ -73,10 +73,6 @@
         <resource-file src="sdk/ios/lib/Channels/Alipay/AlipaySDK.bundle"/>
         <framework src="sdk/ios/lib/Channels/Alipay/AlipaySDK.framework" custom="true"/>
         <source-file src="sdk/ios/lib/Channels/Alipay/libpingpp+alipay.a" framework="true"/>
-        <source-file src="sdk/ios/lib/Channels/Wx/libpingpp+wx.a" framework="true"/>
-        <source-file src="sdk/ios/lib/Channels/Wx/libWeChatSDK.a" framework="true"/>
-        <header-file src="sdk/ios/lib/Channels/Wx/WXApi.h" />
-        <header-file src="sdk/ios/lib/Channels/Wx/WXApiObject.h" />
         <resource-file src="sdk/ios/lib/Pingpp.bundle"/>
         <source-file src="sdk/ios/lib/libpingppcore.a" framework="true"/>
         <header-file src="sdk/ios/lib/Pingpp.h"/>
@@ -103,6 +99,4 @@
             You need to add URL_SCHEME to your iOS project.
         </info>
     </platform>
-
-    <hook type="before_plugin_install" src="scripts/clone_pingpp_sdk.js" />
 </plugin>
