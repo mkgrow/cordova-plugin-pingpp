@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1560DB1D9A5B8A00CC4E13 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E155F9B1D9A5B8A00CC4E13 /* AlipaySDK.bundle */; };
+		1E1560DC1D9A5B8A00CC4E13 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E155F9C1D9A5B8A00CC4E13 /* AlipaySDK.framework */; };
+		1E1560DD1D9A5B8A00CC4E13 /* libpingpp+alipay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E155F9D1D9A5B8A00CC4E13 /* libpingpp+alipay.a */; };
+		1E1560DE1D9A5B8A00CC4E13 /* libpingpp+applepayUpacp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E155F9F1D9A5B8A00CC4E13 /* libpingpp+applepayUpacp.a */; };
+		1E1560DF1D9A5B8A00CC4E13 /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E155FA01D9A5B8A00CC4E13 /* libUPAPayPlugin.a */; };
+		1E1560E01D9A5B8A00CC4E13 /* libpingpp+bfbWap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E155FA31D9A5B8A00CC4E13 /* libpingpp+bfbWap.a */; };
+		1E1561B91D9A5B8A00CC4E13 /* libpingpp+qqwallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560C81D9A5B8A00CC4E13 /* libpingpp+qqwallet.a */; };
+		1E1561BA1D9A5B8A00CC4E13 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560CA1D9A5B8A00CC4E13 /* libPaymentControl.a */; };
+		1E1561BB1D9A5B8A00CC4E13 /* libpingpp+up.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560CB1D9A5B8A00CC4E13 /* libpingpp+up.a */; };
+		1E1561BC1D9A5B8A00CC4E13 /* libpingpp+yeepay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560CE1D9A5B8A00CC4E13 /* libpingpp+yeepay.a */; };
+		1E1561BD1D9A5B8A00CC4E13 /* libpingpp+network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560D11D9A5B8A00CC4E13 /* libpingpp+network.a */; };
+		1E1561BE1D9A5B8A00CC4E13 /* libpingpp+webview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560D41D9A5B8A00CC4E13 /* libpingpp+webview.a */; };
+		1E1561BF1D9A5B8A00CC4E13 /* libpingppcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560D51D9A5B8A00CC4E13 /* libpingppcore.a */; };
+		1E1561C01D9A5B8A00CC4E13 /* libpingpp+one.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1560D71D9A5B8A00CC4E13 /* libpingpp+one.a */; };
+		1E1561C11D9A5B8A00CC4E13 /* Pingpp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E1560D91D9A5B8A00CC4E13 /* Pingpp.bundle */; };
+		1EAA24681AF2115B00952143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA24671AF2115B00952143 /* AppDelegate.swift */; };
+		1EAA246A1AF2115B00952143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA24691AF2115B00952143 /* ViewController.swift */; };
+		1EAA246D1AF2115B00952143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA246B1AF2115B00952143 /* Main.storyboard */; };
+		1EAA246F1AF2115B00952143 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA246E1AF2115B00952143 /* Images.xcassets */; };
+		1EAA24721AF2115B00952143 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA24701AF2115B00952143 /* LaunchScreen.xib */; };
+		1EAA24F71AF213EB00952143 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24F61AF213EB00952143 /* libc++.dylib */; };
+		1EAA24F81AF213F600952143 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24F11AF213BE00952143 /* SystemConfiguration.framework */; };
+		1EAA24F91AF213FB00952143 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24F31AF213C300952143 /* CFNetwork.framework */; };
+		1EAA24FB1AF2140100952143 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24FA1AF2140100952143 /* libstdc++.dylib */; };
+		1EAA24FD1AF2140800952143 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24FC1AF2140800952143 /* libsqlite3.dylib */; };
+		1EAA24FF1AF2140D00952143 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA24FE1AF2140D00952143 /* libz.dylib */; };
+		1EAA25011AF2142000952143 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25001AF2142000952143 /* Security.framework */; };
+		1EAA25031AF2142B00952143 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25021AF2142B00952143 /* CoreTelephony.framework */; };
+		1EAA25051AF2143800952143 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25041AF2143800952143 /* CoreGraphics.framework */; };
+		1EAA25071AF2144000952143 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25061AF2144000952143 /* ImageIO.framework */; };
+		1EAA25091AF2144500952143 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25081AF2144500952143 /* QuartzCore.framework */; };
+		1EAA250B1AF2144C00952143 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA250A1AF2144C00952143 /* MobileCoreServices.framework */; };
+		1EAA250D1AF2145500952143 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA250C1AF2145500952143 /* MessageUI.framework */; };
+		1EAA250F1AF2146300952143 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA250E1AF2146300952143 /* AudioToolbox.framework */; };
+		1EAA25111AF2146800952143 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25101AF2146800952143 /* CoreAudio.framework */; };
+		1EAA25131AF2147300952143 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25121AF2147300952143 /* MapKit.framework */; };
+		1EAA25151AF2148C00952143 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25141AF2148C00952143 /* AddressBook.framework */; };
+		1EAA25171AF2149100952143 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25161AF2149100952143 /* AddressBookUI.framework */; };
+		1EAA25191AF214B300952143 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA25181AF214B300952143 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E155F9B1D9A5B8A00CC4E13 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1E155F9C1D9A5B8A00CC4E13 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		1E155F9D1D9A5B8A00CC4E13 /* libpingpp+alipay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+alipay.a"; sourceTree = "<group>"; };
+		1E155F9F1D9A5B8A00CC4E13 /* libpingpp+applepayUpacp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+applepayUpacp.a"; sourceTree = "<group>"; };
+		1E155FA01D9A5B8A00CC4E13 /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
+		1E155FA31D9A5B8A00CC4E13 /* libpingpp+bfbWap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+bfbWap.a"; sourceTree = "<group>"; };
+		1E1560C81D9A5B8A00CC4E13 /* libpingpp+qqwallet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+qqwallet.a"; sourceTree = "<group>"; };
+		1E1560CA1D9A5B8A00CC4E13 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		1E1560CB1D9A5B8A00CC4E13 /* libpingpp+up.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+up.a"; sourceTree = "<group>"; };
+		1E1560CE1D9A5B8A00CC4E13 /* libpingpp+yeepay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+yeepay.a"; sourceTree = "<group>"; };
+		1E1560D11D9A5B8A00CC4E13 /* libpingpp+network.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+network.a"; sourceTree = "<group>"; };
+		1E1560D21D9A5B8A00CC4E13 /* PingppURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingppURLResponse.h; sourceTree = "<group>"; };
+		1E1560D41D9A5B8A00CC4E13 /* libpingpp+webview.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+webview.a"; sourceTree = "<group>"; };
+		1E1560D51D9A5B8A00CC4E13 /* libpingppcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpingppcore.a; sourceTree = "<group>"; };
+		1E1560D71D9A5B8A00CC4E13 /* libpingpp+one.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpingpp+one.a"; sourceTree = "<group>"; };
+		1E1560D81D9A5B8A00CC4E13 /* Pingpp+One.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pingpp+One.h"; sourceTree = "<group>"; };
+		1E1560D91D9A5B8A00CC4E13 /* Pingpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Pingpp.bundle; sourceTree = "<group>"; };
+		1E1560DA1D9A5B8A00CC4E13 /* Pingpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pingpp.h; sourceTree = "<group>"; };
+		1EAA24621AF2115B00952143 /* demoapp-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demoapp-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAA24661AF2115B00952143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAA24671AF2115B00952143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EAA24691AF2115B00952143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EAA246C1AF2115B00952143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EAA246E1AF2115B00952143 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EAA24711AF2115B00952143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EAA247C1AF2115B00952143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAA247D1AF2115B00952143 /* demoapp_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp_swiftTests.swift; sourceTree = "<group>"; };
+		1EAA24F11AF213BE00952143 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1EAA24F31AF213C300952143 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1EAA24F61AF213EB00952143 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1EAA24FA1AF2140100952143 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		1EAA24FC1AF2140800952143 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1EAA24FE1AF2140D00952143 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1EAA25001AF2142000952143 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1EAA25021AF2142B00952143 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1EAA25041AF2143800952143 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EAA25061AF2144000952143 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1EAA25081AF2144500952143 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1EAA250A1AF2144C00952143 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1EAA250C1AF2145500952143 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1EAA250E1AF2146300952143 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1EAA25101AF2146800952143 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1EAA25121AF2147300952143 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1EAA25141AF2148C00952143 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1EAA25161AF2149100952143 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		1EAA25181AF214B300952143 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		1EAA251D1AF2191500952143 /* demoapp-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoapp-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAA245F1AF2115B00952143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA25191AF214B300952143 /* PassKit.framework in Frameworks */,
+				1E1560DC1D9A5B8A00CC4E13 /* AlipaySDK.framework in Frameworks */,
+				1E1561BF1D9A5B8A00CC4E13 /* libpingppcore.a in Frameworks */,
+				1EAA25171AF2149100952143 /* AddressBookUI.framework in Frameworks */,
+				1E1560DF1D9A5B8A00CC4E13 /* libUPAPayPlugin.a in Frameworks */,
+				1E1560DE1D9A5B8A00CC4E13 /* libpingpp+applepayUpacp.a in Frameworks */,
+				1E1561BC1D9A5B8A00CC4E13 /* libpingpp+yeepay.a in Frameworks */,
+				1EAA25151AF2148C00952143 /* AddressBook.framework in Frameworks */,
+				1EAA250B1AF2144C00952143 /* MobileCoreServices.framework in Frameworks */,
+				1E1561BB1D9A5B8A00CC4E13 /* libpingpp+up.a in Frameworks */,
+				1EAA25131AF2147300952143 /* MapKit.framework in Frameworks */,
+				1EAA25111AF2146800952143 /* CoreAudio.framework in Frameworks */,
+				1E1561BD1D9A5B8A00CC4E13 /* libpingpp+network.a in Frameworks */,
+				1E1561BE1D9A5B8A00CC4E13 /* libpingpp+webview.a in Frameworks */,
+				1E1560DD1D9A5B8A00CC4E13 /* libpingpp+alipay.a in Frameworks */,
+				1EAA250F1AF2146300952143 /* AudioToolbox.framework in Frameworks */,
+				1EAA250D1AF2145500952143 /* MessageUI.framework in Frameworks */,
+				1EAA25091AF2144500952143 /* QuartzCore.framework in Frameworks */,
+				1EAA25071AF2144000952143 /* ImageIO.framework in Frameworks */,
+				1EAA25051AF2143800952143 /* CoreGraphics.framework in Frameworks */,
+				1E1561C01D9A5B8A00CC4E13 /* libpingpp+one.a in Frameworks */,
+				1EAA25031AF2142B00952143 /* CoreTelephony.framework in Frameworks */,
+				1EAA25011AF2142000952143 /* Security.framework in Frameworks */,
+				1EAA24FF1AF2140D00952143 /* libz.dylib in Frameworks */,
+				1EAA24FD1AF2140800952143 /* libsqlite3.dylib in Frameworks */,
+				1E1560E01D9A5B8A00CC4E13 /* libpingpp+bfbWap.a in Frameworks */,
+				1EAA24FB1AF2140100952143 /* libstdc++.dylib in Frameworks */,
+				1EAA24F91AF213FB00952143 /* CFNetwork.framework in Frameworks */,
+				1E1561BA1D9A5B8A00CC4E13 /* libPaymentControl.a in Frameworks */,
+				1EAA24F81AF213F600952143 /* SystemConfiguration.framework in Frameworks */,
+				1E1561B91D9A5B8A00CC4E13 /* libpingpp+qqwallet.a in Frameworks */,
+				1EAA24F71AF213EB00952143 /* libc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E155F981D9A5B8A00CC4E13 /* Pingpp */ = {
+			isa = PBXGroup;
+			children = (
+				1E155F991D9A5B8A00CC4E13 /* Channels */,
+				1E1560CF1D9A5B8A00CC4E13 /* Dependencies */,
+				1E1560D51D9A5B8A00CC4E13 /* libpingppcore.a */,
+				1E1560D61D9A5B8A00CC4E13 /* One */,
+				1E1560D91D9A5B8A00CC4E13 /* Pingpp.bundle */,
+				1E1560DA1D9A5B8A00CC4E13 /* Pingpp.h */,
+			);
+			name = Pingpp;
+			path = ../../../lib;
+			sourceTree = "<group>";
+		};
+		1E155F991D9A5B8A00CC4E13 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				1E155F9A1D9A5B8A00CC4E13 /* Alipay */,
+				1E155F9E1D9A5B8A00CC4E13 /* ApplePay */,
+				1E155FA21D9A5B8A00CC4E13 /* BfbWap */,
+				1E1560C71D9A5B8A00CC4E13 /* QQWallet */,
+				1E1560C91D9A5B8A00CC4E13 /* UnionPay */,
+				1E1560CD1D9A5B8A00CC4E13 /* Yeepay */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		1E155F9A1D9A5B8A00CC4E13 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				1E155F9B1D9A5B8A00CC4E13 /* AlipaySDK.bundle */,
+				1E155F9C1D9A5B8A00CC4E13 /* AlipaySDK.framework */,
+				1E155F9D1D9A5B8A00CC4E13 /* libpingpp+alipay.a */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		1E155F9E1D9A5B8A00CC4E13 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				1E155F9F1D9A5B8A00CC4E13 /* libpingpp+applepayUpacp.a */,
+				1E155FA01D9A5B8A00CC4E13 /* libUPAPayPlugin.a */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		1E155FA21D9A5B8A00CC4E13 /* BfbWap */ = {
+			isa = PBXGroup;
+			children = (
+				1E155FA31D9A5B8A00CC4E13 /* libpingpp+bfbWap.a */,
+			);
+			path = BfbWap;
+			sourceTree = "<group>";
+		};
+		1E1560C71D9A5B8A00CC4E13 /* QQWallet */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560C81D9A5B8A00CC4E13 /* libpingpp+qqwallet.a */,
+			);
+			path = QQWallet;
+			sourceTree = "<group>";
+		};
+		1E1560C91D9A5B8A00CC4E13 /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560CA1D9A5B8A00CC4E13 /* libPaymentControl.a */,
+				1E1560CB1D9A5B8A00CC4E13 /* libpingpp+up.a */,
+			);
+			path = UnionPay;
+			sourceTree = "<group>";
+		};
+		1E1560CD1D9A5B8A00CC4E13 /* Yeepay */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560CE1D9A5B8A00CC4E13 /* libpingpp+yeepay.a */,
+			);
+			path = Yeepay;
+			sourceTree = "<group>";
+		};
+		1E1560CF1D9A5B8A00CC4E13 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560D01D9A5B8A00CC4E13 /* Network */,
+				1E1560D31D9A5B8A00CC4E13 /* WebView */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		1E1560D01D9A5B8A00CC4E13 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560D11D9A5B8A00CC4E13 /* libpingpp+network.a */,
+				1E1560D21D9A5B8A00CC4E13 /* PingppURLResponse.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1E1560D31D9A5B8A00CC4E13 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560D41D9A5B8A00CC4E13 /* libpingpp+webview.a */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		1E1560D61D9A5B8A00CC4E13 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				1E1560D71D9A5B8A00CC4E13 /* libpingpp+one.a */,
+				1E1560D81D9A5B8A00CC4E13 /* Pingpp+One.h */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		1EAA24591AF2115A00952143 = {
+			isa = PBXGroup;
+			children = (
+				1EAA24641AF2115B00952143 /* demoapp-swift */,
+				1EAA24F51AF213D200952143 /* Frameworks */,
+				1EAA247A1AF2115B00952143 /* demoapp-swiftTests */,
+				1EAA24631AF2115B00952143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAA24631AF2115B00952143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA24621AF2115B00952143 /* demoapp-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAA24641AF2115B00952143 /* demoapp-swift */ = {
+			isa = PBXGroup;
+			children = (
+				1E155F981D9A5B8A00CC4E13 /* Pingpp */,
+				1EAA24671AF2115B00952143 /* AppDelegate.swift */,
+				1EAA24691AF2115B00952143 /* ViewController.swift */,
+				1EAA246B1AF2115B00952143 /* Main.storyboard */,
+				1EAA246E1AF2115B00952143 /* Images.xcassets */,
+				1EAA24701AF2115B00952143 /* LaunchScreen.xib */,
+				1EAA251D1AF2191500952143 /* demoapp-swift-Bridging-Header.h */,
+				1EAA24651AF2115B00952143 /* Supporting Files */,
+			);
+			path = "demoapp-swift";
+			sourceTree = "<group>";
+		};
+		1EAA24651AF2115B00952143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA24661AF2115B00952143 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAA247A1AF2115B00952143 /* demoapp-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA247D1AF2115B00952143 /* demoapp_swiftTests.swift */,
+				1EAA247B1AF2115B00952143 /* Supporting Files */,
+			);
+			path = "demoapp-swiftTests";
+			sourceTree = "<group>";
+		};
+		1EAA247B1AF2115B00952143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA247C1AF2115B00952143 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAA24F51AF213D200952143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA25181AF214B300952143 /* PassKit.framework */,
+				1EAA25161AF2149100952143 /* AddressBookUI.framework */,
+				1EAA25141AF2148C00952143 /* AddressBook.framework */,
+				1EAA25121AF2147300952143 /* MapKit.framework */,
+				1EAA25101AF2146800952143 /* CoreAudio.framework */,
+				1EAA250E1AF2146300952143 /* AudioToolbox.framework */,
+				1EAA250C1AF2145500952143 /* MessageUI.framework */,
+				1EAA250A1AF2144C00952143 /* MobileCoreServices.framework */,
+				1EAA25081AF2144500952143 /* QuartzCore.framework */,
+				1EAA25061AF2144000952143 /* ImageIO.framework */,
+				1EAA25041AF2143800952143 /* CoreGraphics.framework */,
+				1EAA25021AF2142B00952143 /* CoreTelephony.framework */,
+				1EAA25001AF2142000952143 /* Security.framework */,
+				1EAA24FE1AF2140D00952143 /* libz.dylib */,
+				1EAA24FC1AF2140800952143 /* libsqlite3.dylib */,
+				1EAA24FA1AF2140100952143 /* libstdc++.dylib */,
+				1EAA24F61AF213EB00952143 /* libc++.dylib */,
+				1EAA24F31AF213C300952143 /* CFNetwork.framework */,
+				1EAA24F11AF213BE00952143 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAA24611AF2115B00952143 /* demoapp-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAA24811AF2115B00952143 /* Build configuration list for PBXNativeTarget "demoapp-swift" */;
+			buildPhases = (
+				1EAA245E1AF2115B00952143 /* Sources */,
+				1EAA245F1AF2115B00952143 /* Frameworks */,
+				1EAA24601AF2115B00952143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demoapp-swift";
+			productName = "demoapp-swift";
+			productReference = 1EAA24621AF2115B00952143 /* demoapp-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAA245A1AF2115A00952143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Pingplusplus;
+				TargetAttributes = {
+					1EAA24611AF2115B00952143 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3XCAYELUBS;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 1EAA245D1AF2115A00952143 /* Build configuration list for PBXProject "demoapp-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EAA24591AF2115A00952143;
+			productRefGroup = 1EAA24631AF2115B00952143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAA24611AF2115B00952143 /* demoapp-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAA24601AF2115B00952143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1561C11D9A5B8A00CC4E13 /* Pingpp.bundle in Resources */,
+				1EAA246D1AF2115B00952143 /* Main.storyboard in Resources */,
+				1EAA24721AF2115B00952143 /* LaunchScreen.xib in Resources */,
+				1E1560DB1D9A5B8A00CC4E13 /* AlipaySDK.bundle in Resources */,
+				1EAA246F1AF2115B00952143 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAA245E1AF2115B00952143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA246A1AF2115B00952143 /* ViewController.swift in Sources */,
+				1EAA24681AF2115B00952143 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EAA246B1AF2115B00952143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAA246C1AF2115B00952143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EAA24701AF2115B00952143 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAA24711AF2115B00952143 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAA247F1AF2115B00952143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EAA24801AF2115B00952143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAA24821AF2115B00952143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEVELOPMENT_TEAM = 3XCAYELUBS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../lib/Channels/Alipay",
+				);
+				INFOPLIST_FILE = "demoapp-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../lib/Channels/Alipay",
+					"$(PROJECT_DIR)/../../lib/Channels/UnionPay",
+					"$(PROJECT_DIR)/../../lib",
+					"$(PROJECT_DIR)/../../lib/Dependencies/Network",
+					"$(PROJECT_DIR)/../../lib/One",
+					"$(PROJECT_DIR)/../../lib/Channels/BfbWap",
+					"$(PROJECT_DIR)/../../lib/Channels/QQWallet",
+					"$(PROJECT_DIR)/../../lib/Dependencies/Webview",
+					"$(PROJECT_DIR)/../../lib/Channels/Yeepay",
+					"$(PROJECT_DIR)/../../lib/Channels/ApplePay",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"pingpp+alipay\"",
+					"-l\"pingpp+network\"",
+					"-l\"pingpp+one\"",
+					"-l\"pingpp+up\"",
+					"-l\"pingppcore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AddressBookUI\"",
+					"-framework",
+					"\"AlipaySDK\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"CoreMotion\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingplusplus.demoapp-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "demoapp-swift/demoapp-swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EAA24831AF2115B00952143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEVELOPMENT_TEAM = 3XCAYELUBS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../lib/Channels/Alipay",
+				);
+				INFOPLIST_FILE = "demoapp-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../lib/Channels/Alipay",
+					"$(PROJECT_DIR)/../../lib/Channels/UnionPay",
+					"$(PROJECT_DIR)/../../lib",
+					"$(PROJECT_DIR)/../../lib/Dependencies/Network",
+					"$(PROJECT_DIR)/../../lib/One",
+					"$(PROJECT_DIR)/../../lib/Channels/BfbWap",
+					"$(PROJECT_DIR)/../../lib/Channels/QQWallet",
+					"$(PROJECT_DIR)/../../lib/Dependencies/Webview",
+					"$(PROJECT_DIR)/../../lib/Channels/Yeepay",
+					"$(PROJECT_DIR)/../../lib/Channels/ApplePay",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"pingpp+alipay\"",
+					"-l\"pingpp+network\"",
+					"-l\"pingpp+one\"",
+					"-l\"pingpp+up\"",
+					"-l\"pingppcore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AddressBookUI\"",
+					"-framework",
+					"\"AlipaySDK\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreAudio\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"CoreMotion\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pingplusplus.demoapp-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "demoapp-swift/demoapp-swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAA245D1AF2115A00952143 /* Build configuration list for PBXProject "demoapp-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA247F1AF2115B00952143 /* Debug */,
+				1EAA24801AF2115B00952143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAA24811AF2115B00952143 /* Build configuration list for PBXNativeTarget "demoapp-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA24821AF2115B00952143 /* Debug */,
+				1EAA24831AF2115B00952143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAA245A1AF2115A00952143 /* Project object */;
+}
