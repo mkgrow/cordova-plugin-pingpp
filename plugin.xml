@@ -54,9 +54,8 @@
         </config-file>
 
         <source-file src="src/android/PingppPlugin.java" target-dir="src/me/tongchia/cordova/"/>
-        <source-file src="sdk/android/lib/pingpp/libs/alipaySingle-20160825.jar" target-dir="libs"/>
-        <source-file src="sdk/android/lib/pingpp/libs/libammsdk.jar" target-dir="libs"/>
-        <source-file src="sdk/android/lib/pingpp/libs/libpingpp-2.1.7.jar" target-dir="libs"/>
+        <framework src="com.pingxx:pingpp-core:2.1.7" />
+        <framework src="com.pingxx:pingpp-wxpay:2.1.7" />
     </platform>
 
     <platform name="ios">
